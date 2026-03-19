@@ -3,3 +3,11 @@ Given a large natural number $N$, find the smallest integer $M \le N$ that has t
 
 ## Solution $O(K \cdot \Pi(N))$ $K \approx 15$:
 The solution explores the space of candidate numbers using a depth-first search (DFS) based on prime factorization. Instead of checking every integer, it constructs numbers by multiplying consecutive primes ($2, 3, 5, \dots$), ensuring the search space remains manageable.
+
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// ... tutaj wklej całą treść swojego pliku solution.cpp ...
+// (włącznie z wektorem prime i funkcją solve)
